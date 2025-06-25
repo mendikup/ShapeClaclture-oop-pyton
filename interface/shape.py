@@ -3,10 +3,10 @@ from  abc import ABC ,abstractmethod
 class Shape(ABC):
 
      @abstractmethod
-     def GetArea(self):
+     def getArea(self):
          pass
 
 
      @abstractmethod
-     def getPerimetr(self):
+     def getPerimeter(self):
          pass
